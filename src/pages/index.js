@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import ParticlesBg from "particles-bg"
 
 import Layout from "../components/layout"
@@ -39,13 +40,19 @@ const IndexPage = () => {
   }
 
   return (
-    <div>
+    <>
+      <Helmet>
+        <link
+          href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300"
+          rel="stylesheet"
+        />
+      </Helmet>
       <Layout>
         <SEO title="Home" />
         <LandingPage />
       </Layout>
       <ParticlesBg type="custom" config={config} bg={true} />
-    </div>
+    </>
   )
 }
 
