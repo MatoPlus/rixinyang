@@ -1,0 +1,15 @@
+/* Typography */
+
+footer {
+	font-family: 'Reem Kufi', sans-serif;
+  font-size: 14px;
+}
+
+/* Custom Styles */
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+}
