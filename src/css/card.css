@@ -1,13 +1,27 @@
 /* Custom Styles */
 
 .card {
+  position: relative;
   margin: 1rem;
   padding: 1rem;
   background-color: #2aa198;
   color: #073642;
-  min-height: 200px;
-  min-width: 400px;
-  width: 400px;
+  max-height: 220px;
+  min-height: 220px;
+  min-width: 375px;
+  width: 375px;
+  transition: 0.3s;
+}
+
+
+.card:hover {
+
+}
+
+@media (max-width: 992px) {
+  .card {
+    min-height: 150px;
+  }
 }
 
 .card-title {
@@ -31,13 +45,20 @@
 }
 
 .card-links {
-	padding: 1rem 0;
-	text-align: center;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
 }
 
 .card-links a {
-	padding: 0 1rem;
   font-size: 2.5em;
+  transition: 0.3s;
+  position: relative;
+  left: -50%;
+}
+
+.card-links a:hover {
+  color: #586e75;
 }
 
 .font-icons {

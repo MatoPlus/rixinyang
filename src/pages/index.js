@@ -1,6 +1,15 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import ParticlesBg from "particles-bg"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faGithub,
+  faJava,
+  faAndroid,
+  faUnity,
+  faPython,
+  faNode
+} from "@fortawesome/free-brands-svg-icons"
 
 import Layout from "../components/layout"
 import LandingPage from "../components/landing-page"
@@ -27,6 +36,61 @@ const IndexPage = () => {
     random: 15
   }
 
+  const titles = [
+    "Orgmodoro",
+    "Gyroll",
+    "Java Paint",
+    "Project Witchcraft",
+    "Super Breakout",
+    "Sagacity"
+  ]
+  const iconsList = [
+    [faAndroid],
+    [faUnity],
+    [faJava],
+    [faPython],
+    [faPython],
+    [faNode]
+  ]
+  const descriptions = [
+    "A minimal Pomodoro timer app for android.",
+    "A 3D Unity Marble Tilt Maze game.",
+    "A Drawing Program written in Java.",
+    "A high-concentration bullet-hell style game powered by Python2 and Pygame.",
+    'A recreation of the video-game "breakout" made in Python2 and Pygame.',
+    "A web app that converts pictures of fragmented notes into structured notes."
+  ]
+  const githubLinks = [
+    "https://github.com/MatoPlus/Orgmodoro",
+    "https://github.com/MatoPlus/GyroscopeMaze",
+    "https://github.com/MatoPlus/JavaPaint",
+    "https://github.com/MatoPlus/ProjectWitchCraft",
+    "https://github.com/MatoPlus/Super-Breakout",
+    "https://github.com/nshdesai/Sagacity"
+  ]
+
+  const cards = []
+  const cardsTech = []
+
+  for (let i in iconsList) {
+    cardsTech.push([])
+    iconsList[i].map(icon =>
+      cardsTech[i].push(<FontAwesomeIcon className="tech" icon={icon} />)
+    )
+  }
+
+  for (let i = 0; i < titles.length; ++i) {
+    cards.push(
+      <Card
+        key={i}
+        title={titles[i]}
+        tech={cardsTech[i]}
+        description={descriptions[i]}
+        githubLink={githubLinks[i]}
+      />
+    )
+  }
+
   return (
     <>
       <Helmet>
@@ -47,9 +111,7 @@ const IndexPage = () => {
         <SEO title="Home" />
         <LandingPage />
         <About />
-        <Portfolio>
-          <Card />
-        </Portfolio>
+        <Portfolio>{cards}</Portfolio>
       </Layout>
       <div className="particles">
         <ParticlesBg type="custom" config={config} bg={true} />

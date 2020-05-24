@@ -4,3 +4,12 @@
   padding-top: 2rem;
   min-height: 100vh;
 }
+
+.cards {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+}

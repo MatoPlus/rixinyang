@@ -3,25 +3,26 @@ import "../css/card.css"
 
 // get our fontawesome imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub, faJava, faAndroid } from "@fortawesome/free-brands-svg-icons"
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
 
-const Card = () => (
+const Card = props => (
+  // Required props:
+  // - title
+  // - tech icons
+  // - desc
+  // - github link
+
   <div className="card">
     <div className="card-title">
-      Orgmodoro
-      <span className="card-tech">
-        <FontAwesomeIcon className="tech" icon={faJava} />
-        <FontAwesomeIcon className="tech" icon={faAndroid} />
-      </span>
+      {props.title}
+      <span className="card-tech">{props.tech}</span>
     </div>
-    <div className="card-desc">
-      A minimal Pomodoro timer app for android with many customizable options.
-    </div>
+    <div className="card-desc">{props.description}</div>
     <div className="card-links">
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://github.com/matoplus/orgmodoro"
+        href={props.githubLink}
         className="font-icons"
       >
         <FontAwesomeIcon icon={faGithub} />
