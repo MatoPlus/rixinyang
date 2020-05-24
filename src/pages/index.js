@@ -5,6 +5,8 @@ import ParticlesBg from "particles-bg"
 import Layout from "../components/layout"
 import LandingPage from "../components/landing-page"
 import About from "../components/about"
+import Portfolio from "../components/portfolio"
+import Card from "../components/card"
 import SEO from "../components/seo"
 
 import "../css/theme.css"
@@ -23,23 +25,6 @@ const IndexPage = () => {
     color: ["#b58900", "#2aa198", "#859900"],
     cross: "dead",
     random: 15
-  }
-
-  if (Math.random() > 0.85) {
-    config = Object.assign(config, {
-      onParticleUpdate: (ctx, particle) => {
-        ctx.beginPath()
-        ctx.rect(
-          particle.p.x,
-          particle.p.y,
-          particle.radius * 2,
-          particle.radius * 2
-        )
-        ctx.fillStyle = particle.color
-        ctx.fill()
-        ctx.closePath()
-      }
-    })
   }
 
   return (
@@ -62,6 +47,9 @@ const IndexPage = () => {
         <SEO title="Home" />
         <LandingPage />
         <About />
+        <Portfolio>
+          <Card />
+        </Portfolio>
       </Layout>
       <div className="particles">
         <ParticlesBg type="custom" config={config} bg={true} />
