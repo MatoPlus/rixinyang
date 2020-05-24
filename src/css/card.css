@@ -4,23 +4,39 @@
   position: relative;
   margin: 1rem;
   padding: 1rem;
-  background-color: #2aa198;
-  color: #073642;
   max-height: 220px;
-  min-height: 220px;
-  min-width: 375px;
+  min-height: 150px;
+  min-width: 300px;
   width: 375px;
+  height: 220px;
   transition: 0.3s;
 }
 
-
-.card:hover {
-
+@media (max-width: 1800px) {
+  .card {
+    width: 350px;
+  }
+}
+@media (max-width: 1725px) {
+  .card {
+    width: 375px;
+  }
+}
+@media (max-width: 1350px) {
+  .card {
+    width: 350px;
+  }
+}
+@media (max-width: 1150px) {
+  .card {
+    width: 375px;
+  }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1290px) {
   .card {
-    min-height: 150px;
+    height: 200px;
+    width: 375px;
   }
 }
 
@@ -55,12 +71,4 @@
   transition: 0.3s;
   position: relative;
   left: -50%;
-}
-
-.card-links a:hover {
-  color: #586e75;
-}
-
-.font-icons {
-  color: #073642;
 }

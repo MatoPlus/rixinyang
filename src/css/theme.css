@@ -42,6 +42,23 @@ main .font-icons {
   top: 0;
 }
 
+.card {
+  background-color: #2aa198;
+  color: #073642;
+}
+
+.card-links a:hover {
+  color: #586e75;
+}
+
+.font-icons {
+  color: #073642;
+}
+
+footer {
+  color: #b58900;
+}
+
 /* ::-webkit-scrollbar { */
 /*   display: none; */
 /* } */
