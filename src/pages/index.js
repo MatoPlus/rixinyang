@@ -53,11 +53,11 @@ const IndexPage = () => {
     [faNode]
   ]
   const descriptions = [
-    "A minimal Pomodoro timer app for android.",
-    "A 3D Unity Marble Tilt Maze game.",
-    "A Drawing Program written in Java.",
-    "A high-concentration bullet-hell style game powered by Python2 and Pygame.",
-    'A recreation of the video-game "breakout" made in Python2 and Pygame.',
+    "A minimal Pomodoro timer app for android with customization options.",
+    "A Gyroscope-controlled 3D marble tilt maze game.",
+    "A full featured painting program written in Java.",
+    "A high-concentration bullet-hell game powered by Python and Pygame.",
+    'A recreation of the video-game "breakout" made in Python and Pygame.',
     "A web app that converts pictures of fragmented notes into structured notes."
   ]
   const githubLinks = [
