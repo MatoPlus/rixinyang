@@ -42,3 +42,33 @@ main {
 	padding: 0 30px;
 	text-align: center;
 }
+
+.content-grid {
+  margin: 0 auto;
+  width: calc(100% - 10rem);
+}
+
+@media (min-width: 426px) {
+  .content-grid {
+    width: calc(100% - 5rem); }
+}
+
+@media (min-width: 769px) {
+  .content-grid {
+    width: calc(100% - 10rem); }
+}
+
+@media (min-width: 1025px) {
+  .content-grid {
+    width: calc(100% - 20rem);
+  }
+}
+
+h1 {
+  font-weight: 900;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

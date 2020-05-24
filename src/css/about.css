@@ -1,0 +1,19 @@
+/* Custom Styles */
+
+.about {
+  padding-top: 2rem;
+  min-height: 100vh;
+}
+
+.about .title {
+	font-family: 'Roboto', sans-serif;
+	font-size: 3.75em;
+}
+
+.kaomoji {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2rem 0;
+	text-align: center;
+}

@@ -4,12 +4,15 @@ import ParticlesBg from "particles-bg"
 
 import Layout from "../components/layout"
 import LandingPage from "../components/landing-page"
+import About from "../components/about"
 import SEO from "../components/seo"
+
+import "../css/theme.css"
 
 const IndexPage = () => {
   let config = {
     num: [4, 7],
-    rps: 0.5,
+    rps: 0.45,
     radius: [5, 12],
     life: [1.5, 3],
     v: [0.1, 1],
@@ -17,7 +20,7 @@ const IndexPage = () => {
     alpha: [0.6, 0],
     scale: [0.1, 0.4],
     position: "all",
-    color: ["#859900", "#2aa198", "#b58900"],
+    color: ["#b58900", "#2aa198", "#859900"],
     cross: "dead",
     random: 15
   }
@@ -46,12 +49,19 @@ const IndexPage = () => {
           href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
+          rel="stylesheet"
+        />
       </Helmet>
       <Layout>
         <SEO title="Home" />
         <LandingPage />
+        <About />
       </Layout>
-      <ParticlesBg type="custom" config={config} bg={true} />
+      <div className="particles">
+        <ParticlesBg type="custom" config={config} bg={true} />
+      </div>
     </>
   )
 }

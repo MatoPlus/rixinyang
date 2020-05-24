@@ -4,10 +4,15 @@ import "../css/footer.css"
 
 const Footer = () => (
   <footer>
-    Made with React and Gatsby{" "}
-    <span role="img" aria-label="heart">
-      ❤️
-    </span>
+    <div className="content-grid">
+      <div>
+        Made with <span className="highlight">React</span> and{" "}
+        <span className="highlight">Gatsby</span>{" "}
+        <span role="img" aria-label="heart">
+          ❤️
+        </span>
+      </div>
+    </div>
   </footer>
 )
 

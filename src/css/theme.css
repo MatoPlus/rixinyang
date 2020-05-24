@@ -7,3 +7,24 @@ html {
 main .font-icons {
 	color: #2aa198;
 }
+
+::selection {
+  background-color: #586e75;
+  color: #859900;
+}
+
+.highlight {
+	color: #d33682;
+}
+
+.highlight-2 {
+  color: #859900;
+}
+
+.particles{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
