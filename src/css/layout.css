@@ -69,6 +69,13 @@ h1 {
   margin: 0;
 }
 
+
+.title {
+	font-family: 'Roboto', sans-serif;
+	font-size: 3.75em;
+}
+
+
 ::-webkit-scrollbar {
   display: none;
 }
