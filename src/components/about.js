@@ -14,16 +14,19 @@ const About = () => (
           <span className="highlight">hackable</span>.
         </p>
         <p>
-          I build and tweak build websites, mobile apps, games, and utilities. I
-          stick close with the community and pace myself at which technology is
-          evolving.
+          I tweak and build websites, mobile apps, games, and utilities. I stick
+          close with the software community and pace myself at which technology
+          is evolving.
         </p>
         <p>
           React, Node.js, Python, and Java are some of the main tricks up my
           sleeve. I am also a big <span className="highlight-3">Emacs</span>{" "}
           nerd who's obsessed with productivity.
         </p>
-        <div className="kaomoji highlight-2">{"（￣︶￣）↗"}</div>
+        <div className="kaomoji highlight-3">
+          {"（￣︶￣）↗"}
+          <span className="code">(M-x butterfly)</span>
+        </div>
       </div>
     </div>
   </div>

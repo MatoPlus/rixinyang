@@ -53,6 +53,10 @@ const IndexPage = () => {
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap"
+          rel="stylesheet"
+        />
       </Helmet>
       <Layout>
         <SEO title="Home" />

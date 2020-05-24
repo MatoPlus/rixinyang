@@ -25,6 +25,10 @@ main .font-icons {
   color: #6c71c4;
 }
 
+.code {
+  font-family: 'Anonymous Pro', monospace;
+}
+
 
 .particles{
   width: 100%;
