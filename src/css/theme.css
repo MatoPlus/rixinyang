@@ -63,6 +63,23 @@ html {
   scroll-behavior: smooth;
 }
 
+nav {
+  background: #073642;
+}
+
+nav #logo img:hover {
+  background: #586e75;
+}
+
+nav .section-link {
+  color: #2aa198;
+}
+
+nav .section-link:hover {
+  border-bottom: 2px solid #859900;
+}
+
+
 ::-webkit-scrollbar {
   display: none;
 }

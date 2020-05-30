@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
@@ -8,9 +7,9 @@ import logo from "../images/ry-cyan.png"
 const Navbar = () => (
   <nav>
     <div id="logo">
-      <Link to="/">
+      <a href="#root">
         <img src={logo} />
-      </Link>
+      </a>
     </div>
     <div className="section-items">
       <div className="section-item">
@@ -21,6 +20,16 @@ const Navbar = () => (
       <div className="section-item">
         <a className="section-link" href="#portfolio">
           Portfolio
+        </a>
+      </div>
+      <div className="section-item">
+        <a
+          className="section-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/rixin_yang_resume.pdf"
+        >
+          Resume
         </a>
       </div>
     </div>
