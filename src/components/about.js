@@ -2,7 +2,7 @@ import React from "react"
 import "../css/about.css"
 
 const About = () => (
-  <div className="about">
+  <div id="about">
     <div className="content-grid">
       <h1 className="title">About</h1>
       <div className="info">

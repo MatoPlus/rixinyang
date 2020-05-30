@@ -23,7 +23,7 @@ import "../css/theme.css"
 const IndexPage = () => {
   let config = {
     num: [4, 7],
-    rps: 0.45,
+    rps: 0.4,
     radius: [5, 12],
     life: [1.5, 3],
     v: [0.1, 1],
@@ -99,7 +99,7 @@ const IndexPage = () => {
           rel="stylesheet"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
           rel="stylesheet"
         />
         <link

@@ -1,11 +1,11 @@
 /* Custom Styles */
 
-.about {
-  padding-top: 2rem;
+#about {
+  padding-top: 3rem;
   min-height: 100vh;
 }
 
-.kaomoji {
+#about .kaomoji {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

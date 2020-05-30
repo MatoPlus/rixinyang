@@ -6,12 +6,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 
 const Card = props => (
-  // Required props:
-  // - title
-  // - tech icons
-  // - desc
-  // - github link
-
   <div className="card">
     <div className="card-title">
       {props.title}

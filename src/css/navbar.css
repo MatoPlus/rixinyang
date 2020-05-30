@@ -1,0 +1,62 @@
+/* Custom Styles */
+
+nav {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  background: #073642;
+  opacity: 0.5;
+}
+
+nav > div {
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav #logo img {
+  width: 3em;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  transition: 0.3s;
+}
+
+nav #logo img:hover {
+  background: #586e75;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+nav .section-items {
+  display: flex;
+  flex: 1 1;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+
+nav .section-item {
+  padding: 0.25rem 0;
+  margin: 0 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+nav .section-link {
+  text-decoration: none;
+  color: #2aa198;
+  transition: 0.3s;
+}
+
+nav .section-link:hover {
+  border-bottom: 2px solid #859900;
+}
+
+#logo {
+  margin: 0;
+}
