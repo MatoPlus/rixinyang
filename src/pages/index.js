@@ -3,7 +3,6 @@ import { Helmet } from "react-helmet"
 import ParticlesBg from "particles-bg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
-  faGithub,
   faJava,
   faAndroid,
   faUnity,

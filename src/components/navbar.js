@@ -1,4 +1,3 @@
-import PropTypes from "prop-types"
 import React from "react"
 
 import "../css/navbar.css"
@@ -8,7 +7,7 @@ const Navbar = () => (
   <nav>
     <div id="logo">
       <a href="#root">
-        <img src={logo} />
+        <img alt="RY" src={logo} />
       </a>
     </div>
     <div className="section-items">
