@@ -1,6 +1,9 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import Particles from "react-particles-js"
+// This ensures that the icon CSS is loaded immediately before attempting to render icons
+import "@fortawesome/fontawesome-svg-core/styles.css"
+import { config } from "@fortawesome/fontawesome-svg-core"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faJava,
@@ -25,6 +28,9 @@ import "../css/about.css"
 import "../css/portfolio.css"
 import "../css/card.css"
 import "../css/footer.css"
+
+// Prevent fontawesome from dynamically adding its css since we did it manually above
+config.autoAddCss = false
 
 const IndexPage = () => {
   let params = {
