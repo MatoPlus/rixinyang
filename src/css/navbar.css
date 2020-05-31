@@ -43,13 +43,12 @@ nav .section-items {
 nav .section-item {
   padding: 0.25rem 0;
   margin: 0 1rem;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-weight: 500;
 }
 
 nav .section-link {
   text-decoration: none;
-  transition: 0.3s;
 }
 
 #logo {
