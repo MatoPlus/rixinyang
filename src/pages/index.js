@@ -1,6 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import ParticlesBg from "particles-bg"
+import Particles from "react-particles-js"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faJava,
@@ -33,6 +33,37 @@ const IndexPage = () => {
     color: ["#b58900", "#2aa198", "#859900"],
     cross: "dead",
     random: 15
+  }
+
+  let params = {
+    particles: {
+      number: {
+        value: 35,
+        density: {
+          enable: false
+        }
+      },
+      color: {
+        value: ["#b58900", "#859900"]
+      },
+      size: {
+        value: 3,
+        random: true,
+        anim: {
+          speed: 2,
+          size_min: 0.3
+        }
+      },
+      line_linked: {
+        enable: false
+      },
+      move: {
+        random: true,
+        speed: 1,
+        direction: "top",
+        out_mode: "out"
+      }
+    }
   }
 
   const titles = [
@@ -113,7 +144,7 @@ const IndexPage = () => {
         <Portfolio>{cards}</Portfolio>
       </Layout>
       <div className="particles">
-        <ParticlesBg type="custom" config={config} bg={true} />
+        <Particles params={params} />
       </div>
     </>
   )
