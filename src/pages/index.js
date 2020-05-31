@@ -141,9 +141,7 @@ const IndexPage = () => {
         <About />
         <Portfolio>{cards}</Portfolio>
       </Layout>
-      <div className="particles">
-        <Particles params={params} />
-      </div>
+      <Particles id="particles-js" params={params} />
     </>
   )
 }
