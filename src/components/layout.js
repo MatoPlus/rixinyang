@@ -10,7 +10,6 @@ import PropTypes from "prop-types"
 
 import Navbar from "./navbar"
 import Footer from "./footer"
-import "../css/layout.css"
 
 const Layout = ({ children }) => {
   return (

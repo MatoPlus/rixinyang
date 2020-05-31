@@ -1,5 +1,4 @@
 import React from "react"
-import "../css/card.css"
 
 // get our fontawesome imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"

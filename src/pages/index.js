@@ -18,23 +18,15 @@ import Card from "../components/card"
 import SEO from "../components/seo"
 
 import "../css/theme.css"
+import "../css/layout.css"
+import "../css/landing-page.css"
+import "../css/navbar.css"
+import "../css/about.css"
+import "../css/portfolio.css"
+import "../css/card.css"
+import "../css/footer.css"
 
 const IndexPage = () => {
-  let config = {
-    num: [4, 7],
-    rps: 0.4,
-    radius: [5, 12],
-    life: [1.5, 3],
-    v: [0.1, 1],
-    tha: [-40, 40],
-    alpha: [0.6, 0],
-    scale: [0.1, 0.4],
-    position: "all",
-    color: ["#b58900", "#2aa198", "#859900"],
-    cross: "dead",
-    random: 15
-  }
-
   let params = {
     particles: {
       number: {
