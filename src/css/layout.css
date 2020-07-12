@@ -60,7 +60,7 @@ main {
 
 @media (min-width: 1025px) {
   .content-grid {
-    width: calc(100% - 20rem);
+    width: calc(100% - 16rem);
   }
 }
 
