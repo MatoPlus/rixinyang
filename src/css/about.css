@@ -3,6 +3,7 @@
 #about {
   padding-top: 3rem;
   min-height: 100vh;
+  position: relative;
 }
 
 #about .kaomoji {
@@ -11,4 +12,11 @@
 	justify-content: center;
 	padding: 2rem 0;
 	text-align: center;
+}
+
+#about > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
