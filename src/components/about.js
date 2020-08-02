@@ -13,9 +13,9 @@ const About = () => (
           <span className="highlight">hackable</span>.
         </p>
         <p>
-          I tweak and build websites, mobile apps, games, and utilities. I stick
-          close with the software community and pace myself at which technology
-          is evolving.
+          I build and customize websites, mobile apps, games, and utilities. I
+          stick close with the software community and pace myself at which
+          technology evolves.
         </p>
         <p>
           React, Node.js, Python, and Java are some of the main tricks up my
