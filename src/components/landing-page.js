@@ -24,7 +24,7 @@ const LandingPage = () => (
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https:www.linkedin.com/in/matoplus"
+          href="https://linkedin.com/in/matoplus"
           className="font-icons"
         >
           <FontAwesomeIcon icon={faLinkedin} />
