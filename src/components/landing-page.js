@@ -8,9 +8,16 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 const LandingPage = () => (
   <div className="landing-page">
     <main>
-      <div className="intro">Ri Xin Yang</div>
+      <div className="intro">
+        <span className="firstName">
+          Ri Xin
+        </span>{" "}
+        <span className="lastName">
+          Yang
+        </span>
+      </div>
       <div className="tagline">
-        Full Stack Dev | Open-Source Enthusiast | Software Engineer
+        <span className="role">Full Stack Dev</span> | <span className="role">Unix Enthusiast</span> | <span className="role">Software Engineer</span>
       </div>
       <div>
         <a

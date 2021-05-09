@@ -16,7 +16,7 @@ import {
 import Layout from "../components/layout"
 import LandingPage from "../components/landing-page"
 import About from "../components/about"
-import Portfolio from "../components/portfolio"
+import Projects from "../components/projects"
 import Card from "../components/card"
 import SEO from "../components/seo"
 
@@ -25,7 +25,7 @@ import "../css/layout.css"
 import "../css/landing-page.css"
 import "../css/navbar.css"
 import "../css/about.css"
-import "../css/portfolio.css"
+import "../css/projects.css"
 import "../css/card.css"
 import "../css/footer.css"
 
@@ -65,37 +65,61 @@ const IndexPage = () => {
   }
 
   const titles = [
+    "Discourse",
+    "Covibes",
     "Orgmodoro",
     "Gyroll",
     "Java Paint",
     "Project Witchcraft",
-    "Super Breakout",
     "Sagacity"
   ]
   const iconsList = [
+    [faNode],
+    [faNode],
     [faAndroid],
     [faUnity],
     [faJava],
     [faPython],
-    [faPython],
     [faNode]
   ]
   const descriptions = [
-    "A minimal Pomodoro timer app for android with customization options.",
+    "A full-stack web app that offers a platform which allows users to create rooms, code, and chat together.",
+    "A map-oriented web app created that connects local anecdotes and thoughts about the new vaccines.",
+    "A minimal Pomodoro Android app with customization options.",
     "A Gyroscope-controlled 3D marble tilt maze game.",
-    "A full featured painting program written in Java.",
-    "A high-concentration bullet-hell game powered by Python and Pygame.",
-    'A recreation of the video-game "breakout" made in Python and Pygame.',
-    "A web app that converts pictures of fragmented notes into structured notes."
+    "A full featured painting program written from scratch in Java.",
+    "An arcade bullet-hell game powered by Python and Pygame.",
+    "A web app which converts pictures of fragmented notes into structured notes."
   ]
   const githubLinks = [
+    "https://github.com/MatoPlus/discourse",
+    "https://github.com/MatoPlus/antibodied",
     "https://github.com/MatoPlus/Orgmodoro",
     "https://github.com/MatoPlus/GyroscopeMaze",
     "https://github.com/MatoPlus/JavaPaint",
     "https://github.com/MatoPlus/ProjectWitchCraft",
-    "https://github.com/MatoPlus/Super-Breakout",
     "https://github.com/nshdesai/Sagacity"
   ]
+  const devpostLinks = [
+    "",
+    "https://devpost.com/software/antibodied",
+    "",
+    "",
+    "",
+    "",
+    "https://devpost.com/software/sagacity"
+  ]
+  const liveLinks = [
+    "https://discourse.vercel.app/",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ]
+
+
 
   const cards = []
   const cardsTech = []
@@ -115,6 +139,8 @@ const IndexPage = () => {
         tech={cardsTech[i]}
         description={descriptions[i]}
         githubLink={githubLinks[i]}
+        devpostLink={devpostLinks[i]}
+        liveLink={liveLinks[i]}
       />
     )
   }
@@ -139,7 +165,7 @@ const IndexPage = () => {
         <SEO title="Home" />
         <LandingPage />
         <About />
-        <Portfolio>{cards}</Portfolio>
+        <Projects>{cards}</Projects>
       </Layout>
       <Particles id="particles-js" params={params} />
     </>

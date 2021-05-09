@@ -16,8 +16,8 @@ const Navbar = () => (
         </a>
       </div>
       <div className="section-item">
-        <a className="section-link" href="#portfolio">
-          Portfolio
+        <a className="section-link" href="#projects">
+          Projects
         </a>
       </div>
       <div className="section-item">

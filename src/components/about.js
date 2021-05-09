@@ -9,18 +9,18 @@ const About = () => (
           My name is <span className="highlight-2">Ri Xin</span>, or if you
           like, <span className="highlight-2">Rickson</span>. I study Software
           Engineering at the University of Waterloo and I love{" "}
-          <span className="highlight">coding</span> and everything{" "}
+          <span className="highlight">tinkering</span> and everything{" "}
           <span className="highlight">hackable</span>.
         </p>
         <p>
-          I build and customize websites, mobile apps, games, and utilities. I
-          stick close with the software community and pace myself at which
-          technology evolves.
+          I enjoy building and tinkering full-stack applications, infrastructures, and dev-utilities. I
+          like to keep up-to-date with the community by going to hackathons with friends, and pace myself at the rate
+          which technology is evolving.
         </p>
         <p>
-          React, Node.js, Python, and Java are some of the main tricks up my
-          sleeve. I am also a big <span className="highlight-3">Emacs</span>{" "}
-          nerd who's obsessed with productivity.
+          Some of the main <span className="highlight-3">tools</span> I enjoy using are Node.js/Express, GraphQL, React, Typescript, Java, and Python.
+          I am also a big <span className="highlight-3">Emacs</span>{" "}
+          nerd who loves experimenting efficient development workflows.
         </p>
         <div className="kaomoji highlight-3">
           {"（￣︶￣）↗"}
