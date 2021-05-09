@@ -75,6 +75,14 @@ h1 {
 	font-size: 3.75em;
 }
 
+.title {
+  transition: 0.3s;
+}
+
+.title:hover {
+	color: #859900;
+}
+
 body {
   margin: 0px;
 }

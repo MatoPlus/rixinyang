@@ -21,3 +21,27 @@ main .font-icons {
 main .font-icons:hover {
 	color: #859900;
 }
+
+.role {
+  transition: 0.3s;
+}
+
+.role:hover {
+	color: #859900;
+}
+
+.firstName {
+  transition: 0.3s;
+}
+
+.firstName:hover {
+	color: #859900;
+}
+
+.lastName {
+  transition: 0.3s;
+}
+
+.lastName:hover {
+	color: #859900;
+}

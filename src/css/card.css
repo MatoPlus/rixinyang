@@ -49,4 +49,6 @@
   transition: 0.3s;
   position: relative;
   left: -50%;
+  margin-right: 0.15em;
+  margin-left: 0.15em;
 }
