@@ -68,7 +68,7 @@ const IndexPage = () => {
     "Discourse",
     "Covibes",
     "Orgmodoro",
-    "Gyroll",
+    "Gyroll Maze",
     "Java Paint",
     "Project Witchcraft",
     "Sagacity"
