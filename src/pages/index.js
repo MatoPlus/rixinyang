@@ -10,7 +10,7 @@ import {
   faAndroid,
   faUnity,
   faPython,
-  faNode
+  faNode,
 } from "@fortawesome/free-brands-svg-icons"
 
 import Layout from "../components/layout"
@@ -38,30 +38,30 @@ const IndexPage = () => {
       number: {
         value: 35,
         density: {
-          enable: false
-        }
+          enable: false,
+        },
       },
       color: {
-        value: ["#b58900", "#859900"]
+        value: ["#b58900", "#859900"],
       },
       size: {
         value: 3,
         random: true,
         anim: {
           speed: 2,
-          size_min: 0.3
-        }
+          size_min: 0.3,
+        },
       },
       line_linked: {
-        enable: false
+        enable: false,
       },
       move: {
         random: true,
         speed: 1,
         direction: "top",
-        out_mode: "out"
-      }
-    }
+        out_mode: "out",
+      },
+    },
   }
 
   const titles = [
@@ -71,7 +71,7 @@ const IndexPage = () => {
     "Gyroll Maze",
     "Java Paint",
     "Project Witchcraft",
-    "Sagacity"
+    "Sagacity",
   ]
   const iconsList = [
     [faNode],
@@ -80,16 +80,16 @@ const IndexPage = () => {
     [faUnity],
     [faJava],
     [faPython],
-    [faNode]
+    [faNode],
   ]
   const descriptions = [
     "A full-stack web app that offers a platform which allows users to create rooms, code, and chat together.",
-    "A map-oriented web app created that connects local anecdotes and thoughts about the new vaccines.",
+    "A map-oriented web app that connects local anecdotes and thoughts about the new vaccines.",
     "A minimal Pomodoro Android app with customization options.",
-    "A Gyroscope-controlled 3D marble tilt maze game.",
+    "A Gyroscope-controlled 3D marble tilt maze game using DFS maze generation.",
     "A full featured painting program written from scratch in Java.",
     "An arcade bullet-hell game powered by Python and Pygame.",
-    "A web app which converts pictures of fragmented notes into structured notes."
+    "A web app which converts pictures of fragmented notes into structured notes.",
   ]
   const githubLinks = [
     "https://github.com/MatoPlus/discourse",
@@ -98,7 +98,7 @@ const IndexPage = () => {
     "https://github.com/MatoPlus/GyroscopeMaze",
     "https://github.com/MatoPlus/JavaPaint",
     "https://github.com/MatoPlus/ProjectWitchCraft",
-    "https://github.com/nshdesai/Sagacity"
+    "https://github.com/nshdesai/Sagacity",
   ]
   const devpostLinks = [
     "",
@@ -107,19 +107,9 @@ const IndexPage = () => {
     "",
     "",
     "",
-    "https://devpost.com/software/sagacity"
+    "https://devpost.com/software/sagacity",
   ]
-  const liveLinks = [
-    "https://discourse.vercel.app/",
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
-  ]
-
-
+  const liveLinks = ["https://discourse.vercel.app/", "", "", "", "", "", ""]
 
   const cards = []
   const cardsTech = []

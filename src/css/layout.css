@@ -1,46 +1,46 @@
 /* Typography */
 
 html {
-	font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 @media (min-width: 576px) {
-	html {
-		font-size: 14px;
-	}
+  html {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 768px) {
-	html {
-		font-size: 16px;
-	}
+  html {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 992px) {
-	html {
-		font-size: 18px;
-	}
+  html {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 1200px) {
-	html {
-		font-size: 20px;
-	}
+  html {
+    font-size: 20px;
+  }
 }
 
 main .font-icons {
-	font-size: 3em;
+  font-size: 3em;
 }
 
 /* Custom Styles */
 
 main {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	justify-content: center;
-	padding: 0 30px;
-	text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 0 30px;
+  text-align: center;
 }
 
 .content-grid {
@@ -50,12 +50,14 @@ main {
 
 @media (min-width: 426px) {
   .content-grid {
-    width: calc(100% - 5rem); }
+    width: calc(100% - 5rem);
+  }
 }
 
 @media (min-width: 769px) {
   .content-grid {
-    width: calc(100% - 10rem); }
+    width: calc(100% - 10rem);
+  }
 }
 
 @media (min-width: 1025px) {
@@ -69,18 +71,17 @@ h1 {
   margin: 0;
 }
 
-
 .title {
-	font-family: 'Roboto', sans-serif;
-	font-size: 3.75em;
+  font-family: "Roboto", sans-serif;
+  font-size: 3.75em;
 }
 
-.title {
+.title > span {
   transition: 0.3s;
 }
 
-.title:hover {
-	color: #859900;
+.title > span:hover {
+  color: #859900;
 }
 
 body {
