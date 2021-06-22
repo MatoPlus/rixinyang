@@ -9,15 +9,13 @@ const LandingPage = () => (
   <div className="landing-page">
     <main>
       <div className="intro">
-        <span className="firstName">
-          Ri Xin
-        </span>{" "}
-        <span className="lastName">
-          Yang
-        </span>
+        <span className="firstName">Ri Xin</span>{" "}
+        <span className="lastName">Yang</span>
       </div>
       <div className="tagline">
-        <span className="role">Full Stack Dev</span> | <span className="role">Unix Enthusiast</span> | <span className="role">Software Engineer</span>
+        <span className="role">Full Stack Dev</span> |{" "}
+        <span className="role">Unix Enthusiast</span> |{" "}
+        <span className="role">Software Engineer</span>
       </div>
       <div>
         <a
@@ -39,7 +37,7 @@ const LandingPage = () => (
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="mailto:rixin.yang.2001@gmail.com"
+          href="mailto:hello@rixinyang.me"
           className="font-icons"
         >
           <FontAwesomeIcon icon={faEnvelope} />
