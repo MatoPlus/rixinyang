@@ -25,7 +25,7 @@ const Navbar = () => (
           className="section-link"
           target="_blank"
           rel="noopener noreferrer"
-          href="/rixin_yang_resume.pdf"
+          href="https://storage.googleapis.com/rxy-portfolio/rickson_yang_resume.pdf"
         >
           Resume
         </a>
