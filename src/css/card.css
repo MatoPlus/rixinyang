@@ -12,10 +12,19 @@
   transition: 0.3s;
 }
 
+.cards:hover > .card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+.cards:hover > .card:not(:hover) {
+  opacity: 0.5;
+}
+
 @media (max-width: 992px) {
-	.card {
+  .card {
     height: 180px;
-	}
+  }
 }
 
 .card-title {
@@ -23,7 +32,7 @@
   font-weight: 900;
   text-align: center;
   margin: 1rem 0;
-	font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .card-tech {

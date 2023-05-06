@@ -20,16 +20,6 @@ const Navbar = () => (
           Projects
         </a>
       </div>
-      <div className="section-item">
-        <a
-          className="section-link"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://storage.googleapis.com/rxy-portfolio/rickson_yang_resume.pdf"
-        >
-          Resume
-        </a>
-      </div>
     </div>
   </nav>
 )

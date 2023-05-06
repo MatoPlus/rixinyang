@@ -1,25 +1,25 @@
 /* Custom Styles */
 
 main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: 4.0em;
-	font-weight: 600;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 4em;
+  font-weight: 600;
   transition: 0.3s;
 }
 
 main > .tagline {
-	font-size: 1.5rem;
-	margin: 1.5rem 0;
-	font-weight: 100;
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  font-weight: 100;
 }
 
 main .font-icons {
-	padding: 10px;
+  padding: 10px;
   transition: 0.3s;
 }
 
 main .font-icons:hover {
-	color: #859900;
+  color: #859900;
 }
 
 .role {
@@ -27,7 +27,7 @@ main .font-icons:hover {
 }
 
 .role:hover {
-	color: #859900;
+  color: #6c71c4;
 }
 
 .firstName {
@@ -35,7 +35,7 @@ main .font-icons:hover {
 }
 
 .firstName:hover {
-	color: #859900;
+  color: #859900;
 }
 
 .lastName {
@@ -43,5 +43,5 @@ main .font-icons:hover {
 }
 
 .lastName:hover {
-	color: #859900;
+  color: #d33682;
 }

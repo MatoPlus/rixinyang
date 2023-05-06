@@ -2,20 +2,20 @@ import React from "react"
 
 // get our fontawesome imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faEnvelope, faPortrait } from "@fortawesome/free-solid-svg-icons"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 const LandingPage = () => (
   <div className="landing-page">
     <main>
       <div className="intro">
-        <span className="firstName">Ri Xin</span>{" "}
+        <span className="firstName">Rickson</span>{" "}
         <span className="lastName">Yang</span>
       </div>
       <div className="tagline">
-        <span className="role">Full Stack Dev</span> |{" "}
-        <span className="role">Unix Enthusiast</span> |{" "}
-        <span className="role">Software Engineer</span>
+        <span className="role">Full Stack</span> |{" "}
+        <span className="role">Infra</span> |{" "}
+        <span className="role">Tinkerer</span>
       </div>
       <div>
         <a
@@ -41,14 +41,6 @@ const LandingPage = () => (
           className="font-icons"
         >
           <FontAwesomeIcon icon={faEnvelope} />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://storage.googleapis.com/rxy-portfolio/rickson_yang_resume.pdf"
-          className="font-icons"
-        >
-          <FontAwesomeIcon icon={faPortrait} />
         </a>
       </div>
     </main>

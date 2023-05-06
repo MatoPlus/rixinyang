@@ -98,7 +98,7 @@ const IndexPage = () => {
     "https://github.com/MatoPlus/GyroscopeMaze",
     "https://github.com/MatoPlus/JavaPaint",
     "https://github.com/MatoPlus/ProjectWitchCraft",
-    "https://github.com/nshdesai/Sagacity",
+    "",
   ]
   const devpostLinks = [
     "",
